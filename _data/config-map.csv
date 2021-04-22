@@ -1,5 +1,5 @@
 field,display_name,search
-date,Date,true
-creator,Creator,true
-subject,Subjects,true
-location,Location,true
+Tarih,Date,true
+Oluşturan,Creator,true
+Tema,Subjects,true
+Konum,Location,true
