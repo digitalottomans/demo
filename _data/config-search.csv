@@ -1,7 +1,7 @@
 field,index,display
-Başlık,true,true
-Tarih,true,true
-Oluşturan,true,false
-Açıklama,true,true
-Tema,true,true
-Konum,true,false
+title,true,true
+date,true,true
+creator,true,false
+description,true,true
+subjects,true,true
+locations,true,false
