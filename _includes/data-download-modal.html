@@ -12,7 +12,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="dataModalLabel">Collection Data</h5>
+                <h5 class="modal-title" id="dataModalLabel">Koleksiyon Verisi</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -25,9 +25,9 @@
                 <div class="card my-3">
                     <div class="card-body">
                         <h5 class="card-title">Complete Metadata</h5>
-                        <p class="card-text">All metadata fields for all collection items, available as a CSV spreadsheet (usable in Excel, Google Sheets, and similar programs) or JSON file (often used with web applications).</p>
-                        <a href="{{ '/assets/data/metadata.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Metadata CSV</a>
-                        <a href="{{ '/assets/data/metadata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Metadata JSON</a>
+                        <p class="card-text">Tüm koleksiyon öğeleri için tüm meta veri alanları, bir CSV dosyası (Excel, Google E-Tablolar ve benzer programlarda) veya JSON dosyası olarak kullanılabilir (often used with web applications).</p>
+                        <a href="{{ '/assets/data/metadata.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Meta veri CSV</a>
+                        <a href="{{ '/assets/data/metadata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Meta veri JSON</a>
                     </div>
                 </div>
                 {%- endif -%}
@@ -45,8 +45,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Subject Metadata</h5>
                         <p class="card-text">Unique values and counts of subject metadata, useful for further analyzing the content of this collection.</p>
-                        <a href="{{ '/assets/data/subjects.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Subjects CSV</a>
-                        <a href="{{ '/assets/data/subjects.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Subjects JSON</a>
+                        <a href="{{ '/assets/data/subjects.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Temalar CSV</a>
+                        <a href="{{ '/assets/data/subjects.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">TemalarJSON</a>
                     </div>
                 </div>
                 {% endif %}
@@ -54,9 +54,9 @@
                 <div class="card my-3">
                     <div class="card-body">
                         <h5 class="card-title">Locations</h5>
-                        <p class="card-text">Unique values and counts of location metadata, useful for further visualization and analysis of this collection's place names.</p>
-                        <a href="{{ '/assets/data/locations.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Locations CSV</a>
-                        <a href="{{ '/assets/data/locations.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Locations JSON</a>
+                        <p class="card-text">Benzersiz değerler ve konum meta verilerinin sayıları, bu koleksiyonun yer adlarının daha fazla görselleştirilmesi ve analizi için yararlıdır.</p>
+                        <a href="{{ '/assets/data/locations.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Konumlar CSV</a>
+                        <a href="{{ '/assets/data/locations.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">KOnumlar JSON</a>
                     </div>
                 </div>
                 {%- endif -%}
@@ -64,7 +64,7 @@
                 <div class="card my-3">
                     <div class="card-body">
                         <h5 class="card-title">GeoJSON</h5>
-                        <p class="card-text">Metadata for all collection items that have geographic coordinates in <a href="https://en.wikipedia.org/wiki/GeoJSON" target="_blank" rel="noopener">GeoJSON</a> format, useful for further exploration and analysis of this collection through a geographical lense.</p>
+                        <p class="card-text">Coğrafi koordinatlara sahip tüm koleksiyon öğeleri için meta veriler <a href="https://en.wikipedia.org/wiki/GeoJSON" target="_blank" rel="noopener">GeoJSON</a> format, useful for further exploration and analysis of this collection through a geographical lense.</p>
                         <a href="{{ '/assets/data/geodata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Geodata JSON</a>
                     </div>
                 </div>
@@ -72,16 +72,16 @@
                 {% if stubs contains "timeline" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Timeline</h5>
-                        <p class="card-text">A time-focused JSON data export designed for use with <a href="https://timeline.knightlab.com/" target="_blank" rel="noopener">TimelineJS</a>.</p>
+                        <h5 class="card-title">Zaman Çizelgesi</h5>
+                        <p class="card-text">Zaman odaklı bir JSON veri formatı dışa aktarımı, <a href="https://timeline.knightlab.com/" target="_blank" rel="noopener">TimelineJS</a>.</p>
                         <a href="{{ '/assets/data/timelinejs.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">TimelineJS JSON</a>
                     </div>
                 </div>
                 {%- endif -%}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Website Source Code</h5>
-                        <p class="card-text">GitHub repository containing source code for this project built with <a href="https://github.com/CollectionBuilder/collectionbuilder-gh" target="_blank" rel="noopener">CollectionBuilder-GH</a>.</p>
+                        <h5 class="card-title">Websitesi Kaynak Kodu</h5>
+                        <p class="card-text">Bu proje için kaynak kodunu içeren GitHub dosyaları <a href="https://github.com/CollectionBuilder/collectionbuilder-gh" target="_blank" rel="noopener">CollectionBuilder-GH</a>.</p>
                         <a href="{{ site.source-code | default: 'https://github.com/CollectionBuilder/collectionbuilder-gh' }}" class="btn btn-outline-dark" target="_blank">Source Code</a>
                     </div>
                 </div>
