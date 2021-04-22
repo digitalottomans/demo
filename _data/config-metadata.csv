@@ -3,7 +3,7 @@ title,Başlık,
 creator,Oluşturan,
 date,Oluşturulma Tarihi,
 description,Açıklama,
-subjects,Temalar,true
+subject,Temalar,true
 locations,Konum
 latitude,Latitude
 longitude,Longitude
