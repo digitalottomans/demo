@@ -6,10 +6,10 @@ permalink: /search/google-search.html
 # set google-cse-id in _config.yml
 ---
 
-## Google Site Search
+## Google Araması
 
 <div class="alert alert-primary" role="alert">
-  Please note: Site Search is a free service provided by Google. Results depend on third party indexing.
+  Site Araması, Google tarafından sağlanan ücretsiz bir hizmettir. Sonuçlar üçüncü taraf indekslemeye bağlıdır.
 </div>
 
 {% include google-site-search.html %}
