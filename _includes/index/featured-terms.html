@@ -33,7 +33,7 @@
 {% assign termsCount = termsCount | split: ";" | sort | reverse %}
 {% capture topTerms %}
 {% for i in termsCount limit: termsMax %}{{ i | split: "||" | last }};{% endfor %}{% endcapture %}
-{% assign topTerms = topterms| split: ";" %}
+{% assign topTerms = topTerms| split: ";" %}
 {%- endif -%}
 <div class="card mb-3">
     <div class="card-body">
