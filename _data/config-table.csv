@@ -1,5 +1,5 @@
 field,display_name
-Başlık,Title
-Tarih,Date
-Açıklama,Description
-Tema,Subjects
+title,Başlık
+date,Tarih
+description,Açıklama
+subjects,Temalar
