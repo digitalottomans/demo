@@ -1,5 +1,5 @@
 field,display_name,btn,hidden,sort_name
-Tarih,Date,,,Date
-Oluşturan,Creator,,,
-Tema,,true
-Konum,,true
+date,tarih,,,Date
+creator,oluşturan,,,
+subject,tema,true
+location,konum,true
