@@ -1,15 +1,15 @@
 field,display_name,browse_link
-Başlık,Title,
-Oluşturan,Creator,
-Tarih,Date Created,
-Açıklama,Description,
-Tema,Subjects,true
-Konum,Location
+title,Başlık,
+creator,Oluşturan,
+date,Oluşturulma Tarihi,
+description,Açıklama,
+subjects,Temalar,true
+locations,Konum
 latitude,Latitude
 longitude,Longitude
-Kaynak,Source
-identifier,Source Identifier
-Tür,Type,
+source,Kaynak
+identifier,Kaynak Tanımlayıcı
+type,Tür,
 Format,Format,
-Haklar,Rights,
-rightsstatement,Rights Statement,
+rights,Haklar,
+rightsstatement,Hak Beyanı,
