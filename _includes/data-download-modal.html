@@ -6,7 +6,7 @@
 {%- endcomment -%}
 
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
-<button type="button" class="btn btn-info btn-lg float-md-right" data-toggle="modal" data-target="#dataModal">Download Data</button>
+<button type="button" class="btn btn-info btn-lg float-md-right" data-toggle="modal" data-target="#dataModal">Veri İndir</button>
 <!-- Modal -->
 <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -24,7 +24,7 @@
                 {% if site.data.theme.metadata-export-fields %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Complete Metadata</h5>
+                        <h5 class="card-title">Tüm Meta Veri</h5>
                         <p class="card-text">Tüm koleksiyon öğeleri için tüm meta veri alanları, bir CSV dosyası (Excel, Google E-Tablolar ve benzer programlarda) veya JSON dosyası olarak kullanılabilir (often used with web applications).</p>
                         <a href="{{ '/assets/data/metadata.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Meta veri CSV</a>
                         <a href="{{ '/assets/data/metadata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Meta veri JSON</a>
