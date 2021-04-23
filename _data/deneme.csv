@@ -1,8 +1,8 @@
 objectid,filename,youtubeid,title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement
-coll001,1.jpg,,Mehmet Genç,Digital Ottomans,1934,"Uskudar, konferansı",konferans,"Istanbul, Uskudar",41.02967803,29.02553156,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
-coll002,2.jpg,,Mehmet Genç,Digital Ottomans,2010,Dragos dersi,ders,Saraybosna,43.87544608,18.45806988,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
-coll003,3.jpg,,Mehmet Genç,Digital Ottomans,2014,Fatih Medrese seminer,seminer,"Istanbul, Kartal",40.9036351,29.15684933,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
-coll004,4.jpg,,Mehmet Genç,Digital Ottomans,2011,Fatih Medrese seminer,seminer,Edirne,41.66938316,26.56371079,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
-coll005,5.jpg,,Mehmet Genç,Digital Ottomans,2021,Belediye sempozyumu,konferans,Ankara,39.92976104,32.79881934,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
-coll006,9.png,,
-coll007,10.jpg,,
+1,1.jpg,,Mehmet Genç,Digital Ottomans,1934,"Uskudar, konferansı",konferans,"Istanbul, Uskudar",41.02967803,29.02553156,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
+2,2.jpg,,Mehmet Genç,Digital Ottomans,2010,Dragos dersi,ders,Saraybosna,43.87544608,18.45806988,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
+3,3.jpg,,Mehmet Genç,Digital Ottomans,2014,Fatih Medrese seminer,seminer,"Istanbul, Kartal",40.9036351,29.15684933,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
+4,4.jpg,,Mehmet Genç,Digital Ottomans,2011,Fatih Medrese seminer,seminer,Edirne,41.66938316,26.56371079,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
+5,5.jpg,,Mehmet Genç,Digital Ottomans,2021,Belediye sempozyumu,konferans,Ankara,39.92976104,32.79881934,Sehir Universitesi Library Special Collections and Archives,,Image,image/jpeg,tr,kamu,https://archive.org/details/dr-mehmet-genc-ile-bir-soylesi-ayse-turk-kahvesi-programi-pdf-kitapcik
+6,9.png,,
+7,10.jpg,,
