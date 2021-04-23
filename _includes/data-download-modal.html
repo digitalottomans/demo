@@ -19,13 +19,13 @@
             </div>
             <div class="modal-body">
 
-                <p>Download this collection's data in a variety of reusable formats.</p>
+                <p>Bu koleksiyonun verilerini çeşitli kullanılabilir biçimlerde indirin.</p>
                 
                 {% if site.data.theme.metadata-export-fields %}
                 <div class="card my-3">
                     <div class="card-body">
                         <h5 class="card-title">Tüm Meta Veri</h5>
-                        <p class="card-text">Tüm koleksiyon öğeleri için tüm meta veri alanları, bir CSV dosyası (Excel, Google E-Tablolar ve benzer programlarda) veya JSON dosyası olarak kullanılabilir (often used with web applications).</p>
+                        <p class="card-text">Tüm koleksiyon öğeleri için tüm meta veri alanları, bir CSV dosyası (Excel, Google E-Tablolar ve benzer programlarda) veya JSON dosyası olarak kullanılabilir.</p>
                         <a href="{{ '/assets/data/metadata.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Meta veri CSV</a>
                         <a href="{{ '/assets/data/metadata.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Meta veri JSON</a>
                     </div>
@@ -34,8 +34,8 @@
                 {% if site.data.theme.metadata-facets-fields %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Metadata Facets</h5>
-                        <p class="card-text">List of unique values and their count for specific metadata fields, useful for understanding content of the fields.</p>
+                        <h5 class="card-title">Meta veri Facets</h5>
+                        <p class="card-text">Alanların içeriğini anlamak için yararlı olan benzersiz değerlerin listesi ve belirli meta veri alanları için sayıları.</p>
                         <a href="{{ '/assets/data/facets.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Facets JSON</a>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                 {% if stubs contains "subject" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Subject Metadata</h5>
+                        <h5 class="card-title">Tema Meta veri</h5>
                         <p class="card-text">Unique values and counts of subject metadata, useful for further analyzing the content of this collection.</p>
                         <a href="{{ '/assets/data/subjects.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Temalar CSV</a>
                         <a href="{{ '/assets/data/subjects.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">TemalarJSON</a>
@@ -53,7 +53,7 @@
                 {% if stubs contains "location" %}
                 <div class="card my-3">
                     <div class="card-body">
-                        <h5 class="card-title">Locations</h5>
+                        <h5 class="card-title">Konumlar</h5>
                         <p class="card-text">Benzersiz değerler ve konum meta verilerinin sayıları, bu koleksiyonun yer adlarının daha fazla görselleştirilmesi ve analizi için yararlıdır.</p>
                         <a href="{{ '/assets/data/locations.csv' | relative_url }}" class="btn btn-outline-dark" target="_blank">Konumlar CSV</a>
                         <a href="{{ '/assets/data/locations.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Konumlar JSON</a>
@@ -73,8 +73,8 @@
                 <div class="card my-3">
                     <div class="card-body">
                         <h5 class="card-title">Zaman Çizelgesi</h5>
-                        <p class="card-text">Zaman odaklı bir JSON veri formatı dışa aktarımı, <a href="https://timeline.knightlab.com/" target="_blank" rel="noopener">TimelineJS</a>.</p>
-                        <a href="{{ '/assets/data/timelinejs.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">TimelineJS JSON</a>
+                        <p class="card-text">Zaman odaklı bir JSON veri formatı dışa aktarımı, <a href="https://timeline.knightlab.com/" target="_blank" rel="noopener">Zaman ÇizelgesiJS</a>.</p>
+                        <a href="{{ '/assets/data/timelinejs.json' | relative_url }}" class="btn btn-outline-dark" target="_blank">Zaman ÇizelgesiJS JSON</a>
                     </div>
                 </div>
                 {%- endif -%}
