@@ -24,7 +24,7 @@
     <figure class="figure border rounded p-1 feature-w-{{ include.width | default: '100' }}{% if include.float %} feature-float-{{ include.float }} mx-3{% endif %}">
         <div class="{% unless include.height %}embed-responsive embed-responsive-{{ include.ratio | default: '1by1' }}{% endunless %}">
             <object class="embed-responsive-item" {% if include.height %}width="100%" height="{{ include.height }}"{% endif %} data="{{item.filename | prepend: 'objects/' | relative_url}}">
-                <p>The PDF is not rendering in your browser. Please use the link below to download the PDF.</p>
+                <p>PDF, tarayıcınızda görüntülenemiyor. PDF'yi indirmek için lütfen aşağıdaki bağlantıyı kullanın.</p>
             </object>
         </div>
         {% unless include.caption == false %}<figcaption class="figure-caption"><a href="{{ '/item.html' | relative_url | append: '?id=' | append: item.objectid }}">{% if include.caption %}{{ include.caption }}{% else %}{{ item.title }}{% endif %}</a></figcaption>{% endunless %}
