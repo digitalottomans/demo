@@ -23,13 +23,13 @@
         var objectLink = record.filename;
         var itemImage, itemLink;
         if (format.includes('image')) {
-            itemImage= '<div class="gallery-img" data-src="' + objectLink + '"><img class="img-fluid" src="' + objectLink + '" alt="' + objectTitle + '"><p><small>Click to view full screen</small></p></div>';
+            itemImage= '<div class="gallery-img" data-src="' + objectLink + '"><img class="img-fluid" src="' + objectLink + '" alt="' + objectTitle + '"><p><small>Tam ekran görüntülemek için tıklayınız</small></p></div>';
             itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-dark" title="Object download">Görseli indir</a>';
         } else if (format.includes('pdf')) {
-            itemImage= '<object data="' + objectLink + '" type="application/pdf" width="100%" height="450px"><p>The PDF is not rendering in your browser. Please use the button below to download the PDF.</p></object>';
+            itemImage= '<object data="' + objectLink + '" type="application/pdf" width="100%" height="450px"><p>PDF, tarayıcınızda görüntülenemiyor. PDF indirmek için lütfen aşağıdaki butonu kullanın.</p></object>';
             itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-dark" title="Object download">PDF dökümanı indir</a>';
         } else if (format.includes('audio')) {
-            itemImage= '<audio controls class="w-100"><source src="' + objectLink + '" type="' + format + '">Your browser does not support the audio element.</audio>';
+            itemImage= '<audio controls class="w-100"><source src="' + objectLink + '" type="' + format + '">Tarayıcınız ses öğesini desteklemiyor.</audio>';
             itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-dark" title="Object download">Audio dosyasını indir</a>';
         } else if (record.youtube) {
             itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/' + record.youtube + '?rel=0&modestbranding=1" allowfullscreen></iframe></div>';
@@ -38,7 +38,7 @@
             itemImage= '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/' + record.vimeo + '" allowfullscreen></iframe></div>';
             itemLink= '<a href="https://vimeo.com/' + record.vimeo + '" target="_blank" class="btn btn-dark" title="Object download">Vimeo ile görüntüle</a>';
         } else if (format.includes('video')) {
-            itemImage= '<video controls class="w-100"><source src="' + objectLink + '" type="' + format + '">Your browser does not support the audio element.</audio>';
+            itemImage= '<video controls class="w-100"><source src="' + objectLink + '" type="' + format + '">Tarayıcınız ses öğesini desteklemiyor.</audio>';
             itemLink= '<a href="' + objectLink + '" target="_blank" class="btn btn-dark" title="Object download">Video dosyasını indir</a>';
         } else {
             /* fall back to no preview if it doesn't know the format */
