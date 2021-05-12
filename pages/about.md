@@ -12,7 +12,7 @@ permalink: /about.html
 
 ## Koleksiyon Hakkında
 
-Hac Yolunda Bir Karınca veritabanı [`Digital Ottoman Studies`](https://www.digitalottomanstudies.com/) platformu tarafından [`collectionbuilder-gh`](https://collectionbuilding.github.io/gh/) kullanılarak oluşturulmuştur.
+Hac Yolunda Bir Karınca veritabanı [`Digital Ottoman Studies`](https://www.digitalottomanstudies.com/) platformu tarafından Dijital Biyografi projesi kapsamında oluşturulmuştur.
 
 
 
