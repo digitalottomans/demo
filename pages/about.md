@@ -12,7 +12,7 @@ permalink: /about.html
 
 ## Koleksiyon Hakkında
 
-Hac Yolunda Bir Karınca veritabanı [`Digital Ottoman Studies`](https://www.digitalottomanstudies.com/) platformu tarafından Dijital Biyografi projesi kapsamında oluşturulmuştur.
+[`Digital Ottoman Studies`](https://www.digitalottomanstudies.com/) Platformu'nun "Dijital Biyografi" projesi kapsamında hazırlanan bu veritabanı Mehmet Genç'e ait eserleri ve izlerini bir araya getirmekte ve bunları zamansal ve mekansal olarak birbiri ile ilişkili şekilde sunmaktadır. Yukarıdaki menüleri takip ederek bu izleri takip edebilirsiniz. Veri girişinin devam edeceği bu sitede dijital beşeri bilimlerin bağlantılı veri (linked data) ve metaveri (metadata) teknikleri kullanılmaktadır.
 
 
 
